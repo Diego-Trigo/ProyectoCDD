@@ -36,35 +36,55 @@ footer img{
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 0.5fr 3fr 0.5fr;
     grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
     gap: 2px 2px;
-    grid-auto-flow: row;
     grid-template-areas:
-        "Main Main Main Main";
+        "Header Header Header Header"
+        "Main Main Main Main"
+        "Footer Footer Footer Footer";
 }
+.footer{
+     grid-area: Footer;
+     background: linear-gradient(0deg, rgba(128,128,128,1) 30%, rgba(34,170,181,1) 100%);
+}
+.header {
+    grid-area: Header;
+}
+
 .Main {
     background-color: wheat;
     text-align: center;
     grid-area: Main;
-    width: 100%;
-    height: 100vh;
-    display: grid;
+    display: grid;  
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    gap: 20px;
-    justify-content: center;
+  
+
+}
+main img{
+    width: 100px;
+}
+footer img{
+    width: 50px;
+    border-radius: 10%;
+}
+footer img:hover{
+    border: solid wheat;
+}
+.imagenes_footer{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly ;
 }
 
-@media  screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .Main {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
         gap: 20px;
-        justify-content: center;  
+        justify-content: center;
     }
 
-    
 }

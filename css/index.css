@@ -9,6 +9,13 @@ h3{
     font-style: oblique;
     font-size: 25px;
 }
-main{
-    position: sticky;
+.foto_inicio{
+    text-align: center;
+   
+}
+.img_inicio{
+    width: 600px;
+    padding: 1rem;
+    margin: 1rem;
+
 }

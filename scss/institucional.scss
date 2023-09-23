@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contactos{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    background-color: grey;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 70%;
+}
+main div{
+    display: flex;
+}
+
+main ul div{
+    display: block;
+}
+main img{
+    margin: 1rem;
+    padding: 1rem;    
+}
+
+.contenedor{
+    text-align: center;
+    background-color: wheat;
+}
+.mediosdecontactos{
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+.telefonos{
+    line-height: 2.5rem;
+}
+.mails{
+    line-height: 3rem;
+}
+.telefono{
+    text-decoration: underline;
+    line-height: 1rem;
+}
+.email{
+    text-decoration: underline;
+    line-height: 1rem;
+}
+.texto_mails{
+    line-height: 2.5rem;
+}
+
+.rrhh{
+    text-align: center;
+    background-color: rgb(31, 151, 202);
+    padding: 1.5rem;
+    font-family: 'Dancing Script', cursiva;
+    font-size: 30px;
+    text-decoration: underline;
+}
+form{
+    background-color: wheat;
+    text-align: center;
+    padding: 1.5rem;
+}

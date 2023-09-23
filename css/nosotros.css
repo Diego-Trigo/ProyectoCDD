@@ -1,86 +1,100 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-main{
-    background-color: rgb(229, 214, 214);
-}
-main h2{
-    text-align: center;
-    font-size: 35px;
-    padding: 2rem;
-    margin: 0;
-    font-style: italic;
-    color: rgb(156, 10, 235);
-    text-decoration: underline;
-}
-.contenedor{
-    display: flex;
-    margin: 2rem;
-    padding: 2rem;
-}
-main p{
-    font-size: 25px;
-    color: rgb(7, 7, 7);
-    text-align: center;
-    margin: 1rem;
-    line-height: 4rem;
-   font-family: Arial, Helvetica, sans-serif;
-   font-style: italic;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h3{
-    text-align: center;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(85, 83, 83);
-    text-decoration: double;
-    font-style: oblique;
+main {
+  background-color: rgb(229, 214, 214);
 }
-.principios{
-    margin: 2rem;
-    padding: 2rem;
-    display: flex;
-    text-align: center;
-    font-size: 25px;
-    line-height: 5rem;
-    text-decoration: solid;
-}
-.valores{
-    color: rgb(0, 64, 255);
-    font-family: 'Dancing Script', cursiva;
-    font-size: 40px;
 
+main h2 {
+  text-align: center;
+  font-size: 35px;
+  padding: 2rem;
+  margin: 0;
+  font-style: italic;
+  color: rgb(156, 10, 235);
+  text-decoration: underline;
 }
-.mision{
-    color: red;
-    font-family: 'Dancing Script', cursiva;
-    font-size: 40px;
+
+.contenedor {
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
 }
-.vision{
-    color: green;
-    font-family: 'Dancing Script', cursiva;
-    font-size: 40px;
+
+main p {
+  font-size: 25px;
+  color: rgb(7, 7, 7);
+  text-align: center;
+  margin: 1rem;
+  line-height: 4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
 }
-.texto_valores{
-    line-height: 4rem;
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(85, 83, 83);
+  text-decoration: double;
+  font-style: oblique;
 }
-.texto_mision{
-    line-height: 4rem;
+
+.principios {
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  line-height: 5rem;
+  text-decoration: solid;
 }
-.cuadro_valores{
-    background-color:  rgb(229, 214, 214);
-    margin: 1rem;
-    padding: 1rem;
+
+.valores {
+  color: rgb(0, 64, 255);
+  font-family: "Dancing Script", cursiva;
+  font-size: 40px;
 }
-.cuadro_mision{
-    background-color: rgb(229, 214, 214);
-    margin: 1rem;
-    padding: 1rem;
+
+.mision {
+  color: red;
+  font-family: "Dancing Script", cursiva;
+  font-size: 40px;
 }
-.cuadro_vision{
-    background-color:  rgb(229, 214, 214);
-    margin: 1rem;
-    padding: 1rem;
+
+.vision {
+  color: green;
+  font-family: "Dancing Script", cursiva;
+  font-size: 40px;
 }
+
+.texto_valores {
+  line-height: 4rem;
+}
+
+.texto_mision {
+  line-height: 4rem;
+}
+
+.cuadro_valores {
+  background-color: rgb(229, 214, 214);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.cuadro_mision {
+  background-color: rgb(229, 214, 214);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.cuadro_vision {
+  background-color: rgb(229, 214, 214);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

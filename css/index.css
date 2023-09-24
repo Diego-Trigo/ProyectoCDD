@@ -9,17 +9,15 @@ h3 {
   font-size: 25px;
 }
 
-.foto_inicio {
+body .foto_inicio {
   text-align: center;
 }
-
-.img_inicio {
+body .img_inicio {
   width: 600px;
   padding: 1rem;
   margin: 1rem;
 }
-
-.carousel {
+body .carousel {
   margin: 1rem;
   padding: 1rem;
 }

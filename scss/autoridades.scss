@@ -96,4 +96,18 @@ footer img:hover {
         justify-content: center;
     }
 
+    .titulo {
+        display: block;
+    }
+
+    .cabecera {
+        display: none;
+    }
+
+    .header_menu {
+        display: block;
+        justify-content: space-around;
+        width: 100%;
+    }
+
 }

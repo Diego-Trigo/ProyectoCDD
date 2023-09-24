@@ -7,8 +7,7 @@
 main {
   background-color: white;
 }
-
-main img {
+main main img {
   margin: 1.5rem;
   padding: 1.5rem;
   width: 900px;
@@ -89,6 +88,17 @@ footer img:hover {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
     justify-content: center;
+  }
+  .titulo {
+    display: block;
+  }
+  .cabecera {
+    display: none;
+  }
+  .header_menu {
+    display: block;
+    justify-content: space-around;
+    width: 100%;
   }
 }
 

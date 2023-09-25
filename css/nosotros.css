@@ -118,11 +118,16 @@ h3 {
     display: none;
   }
   .cabecera {
-    display: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
   .header_menu {
     display: flex;
     justify-content: space-around;
+    width: 100%;
+  }
+  footer {
     width: 100%;
   }
 }

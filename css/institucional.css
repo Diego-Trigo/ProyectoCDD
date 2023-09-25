@@ -16,20 +16,15 @@
 
 main div {
   display: flex;
-}
-
-main ul div {
-  display: block;
-}
-
-main img {
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.contenedor {
   text-align: center;
   background-color: wheat;
+}
+main div ul div {
+  display: block;
+}
+main div ul div img {
+  margin: 1rem;
+  padding: 1rem;
 }
 
 .mediosdecontactos {
@@ -73,6 +68,25 @@ form {
   background-color: wheat;
   text-align: center;
   padding: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .titulo {
+    display: none;
+  }
+  .cabecera {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .header_menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=institucional.css.map */
